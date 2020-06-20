@@ -1,0 +1,998 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"> 
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+		<meta name="ProgId" content="Excel.Sheet"> 
+		<meta name="Generator" content="Microsoft Excel 10"> 
+		<link rel="File-List" href="Libro1_archivos/filelist.xml"> 
+			<link rel="Edit-Time-Data" href="Libro1_archivos/editdata.mso"> 
+				<link rel="OLE-Object-Data" href="Libro1_archivos/oledata.mso"> 
+					<!--[If gte mso 9]><xml> 
+ <o:DocumentProperties> 
+  <o:Author></o:Author> 
+  <o:LastAuthor></o:LastAuthor> 
+  <o:Created>2020-6-16T00:00:00Z</o:Created> 
+  <o:LastSaved>2020-6-16T00:00:00Z</o:LastSaved> 
+  <o:Company>BCCR</o:Company> 
+  <o:Version>10.4219</o:Version> 
+ </o:DocumentProperties> 
+ <o:OfficeDocumentSettings> 
+  <o:DownloadComponents/> 
+ </o:OfficeDocumentSettings> 
+</xml><![endif]--> 
+					<style> 
+						<!--table 
+	{mso-displayed-decimal-separator:"\,"; 
+	mso-displayed-thousand-separator:"\.";} 
+@page 
+	{margin:.98in .79in .98in .79in; 
+	mso-header-margin:0in; 
+	mso-footer-margin:0in;} 
+            tr 
+	{mso-height-source:auto;} 
+            col 
+	{mso-width-source:auto;} 
+            br 
+	{mso-data-placement:same-cell;} 
+            .style0 
+	{mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	white-space:nowrap; 
+	mso-rotate:0; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	border:none; 
+	mso-protection:locked visible; 
+	mso-style-name:Normal; 
+	mso-style-id:0;} 
+            td 
+	{mso-style-parent:style0; 
+	padding-top:1px; 
+	padding-right:1px; 
+	padding-left:1px; 
+	mso-ignore:padding; 
+	color:windowtext; 
+	font-size:10.0pt; 
+	font-weight:400; 
+	font-style:normal; 
+	text-decoration:none; 
+	font-family:Arial; 
+	mso-generic-font-family:auto; 
+	mso-font-charset:0; 
+	mso-number-format:General; 
+	text-align:general; 
+	vertical-align:bottom; 
+	border:none; 
+	mso-background-source:auto; 
+	mso-pattern:auto; 
+	mso-protection:locked visible; 
+	white-space:nowrap; 
+	mso-rotate:0;} 
+	.numero 
+	{mso-style-parent:style0; 
+	mso-number-format:"\#\,\#\#0\.00";} 
+	.texto 
+	{mso-style-parent:style0; 
+	mso-number-format:"\@";} 
+--></style> 
+		<!--[If gte mso 9]><xml> 
+ <x:ExcelWorkbook> 
+  <x:ExcelWorksheets> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja1</x:Name> 
+    <x:WorksheetOptions> 
+     <x:Selected/> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+    <x:QueryTable> 
+     <x:RefreshOnFileOpen/> 
+     <x:Name>DataExported</x:Name> 
+     <x:AutoFormatFont/> 
+     <x:AutoFormatPattern/> 
+     <x:QuerySource> 
+      <x:QueryType>Web</x:QueryType> 
+      <x:EnableRedirections/> 
+      <x:RefreshedInXl9/> 
+      <x:EntirePage/> 
+      <x:URLString 
+       HRef='https://gee.bccr.fi.cr/indicadoreseconomicos/Cuadros/frmVerCatCuadro.aspx?CodCuadro=400&Idioma=1&FecInicial=2020/01/01&FecFinal=2020/06/16&Filtro=0&Exportar=True&Excel=True'/> 
+      <x:VersionLastEdit>1</x:VersionLastEdit> 
+      <x:VersionLastRefresh>1</x:VersionLastRefresh> 
+     </x:QuerySource> 
+    </x:QueryTable> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja2</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+   <x:ExcelWorksheet> 
+    <x:Name>Hoja3</x:Name> 
+    <x:WorksheetOptions> 
+     <x:ProtectContents>False</x:ProtectContents> 
+     <x:ProtectObjects>False</x:ProtectObjects> 
+     <x:ProtectScenarios>False</x:ProtectScenarios> 
+    </x:WorksheetOptions> 
+   </x:ExcelWorksheet> 
+  </x:ExcelWorksheets> 
+  <x:ProtectStructure>False</x:ProtectStructure> 
+  <x:ProtectWindows>False</x:ProtectWindows> 
+ </x:ExcelWorkbook> 
+ <x:ExcelName> 
+  <x:Name>DataExported</x:Name> 
+  <x:SheetIndex>1</x:SheetIndex> 
+  <x:Formula>=Hoja1!$A$1:$C$174</x:Formula> 
+ </x:ExcelName> 
+</xml><![endif]--> 
+	</head> 
+	<body link="blue" vlink="purple"> 
+<form id="Form1" method="post" runat="server">
+    <table id="Table9" cellPadding="0" cellSpacing="0" border="0">
+        <TR><TD colSpan="10" class=texto><a name="DataExported">Tipo cambio de compra y de venta del d&oacute;lar de los Estados Unidos de Am&eacute;rica</a></TD></TR>
+        <TR><TD colSpan="10" class=texto>Referencia del Banco Central de Costa Rica</TD></TR>
+        <TR><TD colSpan="10" class=texto>En colones costarricenses</TD></TR>
+        <TR><TD>&nbsp;</TD></TR>
+        <tr>
+            <td rowspan="1" colspan=1>&nbsp;</td>
+            <td class=texto rowspan="1" colspan="1">
+                TIPO CAMBIO COMPRA
+            </td>
+            <td class=texto rowspan="1" colspan="1">
+                TIPO DE CAMBIO VENTA
+            </td>
+        </tr>
+        <tr>
+            <td class=texto>1 Ene 2020</td>
+            <td class=numero align=right>570,09000000</td>
+            <td class=numero align=right>576,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Ene 2020</td>
+            <td class=numero align=right>570,09000000</td>
+            <td class=numero align=right>576,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Ene 2020</td>
+            <td class=numero align=right>569,50000000</td>
+            <td class=numero align=right>576,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Ene 2020</td>
+            <td class=numero align=right>569,37000000</td>
+            <td class=numero align=right>576,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Ene 2020</td>
+            <td class=numero align=right>569,37000000</td>
+            <td class=numero align=right>576,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Ene 2020</td>
+            <td class=numero align=right>569,37000000</td>
+            <td class=numero align=right>576,24000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Ene 2020</td>
+            <td class=numero align=right>567,47000000</td>
+            <td class=numero align=right>576,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Ene 2020</td>
+            <td class=numero align=right>569,58000000</td>
+            <td class=numero align=right>576,72000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Ene 2020</td>
+            <td class=numero align=right>569,47000000</td>
+            <td class=numero align=right>576,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Ene 2020</td>
+            <td class=numero align=right>569,84000000</td>
+            <td class=numero align=right>576,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Ene 2020</td>
+            <td class=numero align=right>568,61000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Ene 2020</td>
+            <td class=numero align=right>568,61000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Ene 2020</td>
+            <td class=numero align=right>568,61000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Ene 2020</td>
+            <td class=numero align=right>566,59000000</td>
+            <td class=numero align=right>573,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Ene 2020</td>
+            <td class=numero align=right>565,82000000</td>
+            <td class=numero align=right>572,01000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Ene 2020</td>
+            <td class=numero align=right>564,67000000</td>
+            <td class=numero align=right>570,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Ene 2020</td>
+            <td class=numero align=right>563,37000000</td>
+            <td class=numero align=right>569,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Ene 2020</td>
+            <td class=numero align=right>561,47000000</td>
+            <td class=numero align=right>568,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Ene 2020</td>
+            <td class=numero align=right>561,47000000</td>
+            <td class=numero align=right>568,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Ene 2020</td>
+            <td class=numero align=right>561,47000000</td>
+            <td class=numero align=right>568,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Ene 2020</td>
+            <td class=numero align=right>561,54000000</td>
+            <td class=numero align=right>568,42000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Ene 2020</td>
+            <td class=numero align=right>563,46000000</td>
+            <td class=numero align=right>570,32000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Ene 2020</td>
+            <td class=numero align=right>565,35000000</td>
+            <td class=numero align=right>572,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Ene 2020</td>
+            <td class=numero align=right>567,19000000</td>
+            <td class=numero align=right>573,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Ene 2020</td>
+            <td class=numero align=right>566,44000000</td>
+            <td class=numero align=right>573,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Ene 2020</td>
+            <td class=numero align=right>566,44000000</td>
+            <td class=numero align=right>573,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Ene 2020</td>
+            <td class=numero align=right>566,44000000</td>
+            <td class=numero align=right>573,51000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Ene 2020</td>
+            <td class=numero align=right>565,53000000</td>
+            <td class=numero align=right>573,13000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Ene 2020</td>
+            <td class=numero align=right>566,55000000</td>
+            <td class=numero align=right>572,64000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Ene 2020</td>
+            <td class=numero align=right>567,26000000</td>
+            <td class=numero align=right>573,08000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Ene 2020</td>
+            <td class=numero align=right>567,06000000</td>
+            <td class=numero align=right>573,36000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Feb 2020</td>
+            <td class=numero align=right>566,38000000</td>
+            <td class=numero align=right>573,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Feb 2020</td>
+            <td class=numero align=right>566,38000000</td>
+            <td class=numero align=right>573,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Feb 2020</td>
+            <td class=numero align=right>566,38000000</td>
+            <td class=numero align=right>573,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Feb 2020</td>
+            <td class=numero align=right>567,47000000</td>
+            <td class=numero align=right>576,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Feb 2020</td>
+            <td class=numero align=right>571,50000000</td>
+            <td class=numero align=right>578,69000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Feb 2020</td>
+            <td class=numero align=right>572,70000000</td>
+            <td class=numero align=right>578,64000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Feb 2020</td>
+            <td class=numero align=right>572,69000000</td>
+            <td class=numero align=right>579,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Feb 2020</td>
+            <td class=numero align=right>570,40000000</td>
+            <td class=numero align=right>577,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Feb 2020</td>
+            <td class=numero align=right>570,40000000</td>
+            <td class=numero align=right>577,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Feb 2020</td>
+            <td class=numero align=right>570,40000000</td>
+            <td class=numero align=right>577,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Feb 2020</td>
+            <td class=numero align=right>568,50000000</td>
+            <td class=numero align=right>576,30000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Feb 2020</td>
+            <td class=numero align=right>568,17000000</td>
+            <td class=numero align=right>574,43000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Feb 2020</td>
+            <td class=numero align=right>566,80000000</td>
+            <td class=numero align=right>572,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Feb 2020</td>
+            <td class=numero align=right>565,61000000</td>
+            <td class=numero align=right>571,22000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Feb 2020</td>
+            <td class=numero align=right>563,98000000</td>
+            <td class=numero align=right>570,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Feb 2020</td>
+            <td class=numero align=right>563,98000000</td>
+            <td class=numero align=right>570,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Feb 2020</td>
+            <td class=numero align=right>563,98000000</td>
+            <td class=numero align=right>570,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Feb 2020</td>
+            <td class=numero align=right>564,12000000</td>
+            <td class=numero align=right>571,63000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Feb 2020</td>
+            <td class=numero align=right>566,03000000</td>
+            <td class=numero align=right>573,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Feb 2020</td>
+            <td class=numero align=right>567,06000000</td>
+            <td class=numero align=right>574,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Feb 2020</td>
+            <td class=numero align=right>569,08000000</td>
+            <td class=numero align=right>575,34000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Feb 2020</td>
+            <td class=numero align=right>569,46000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Feb 2020</td>
+            <td class=numero align=right>569,46000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Feb 2020</td>
+            <td class=numero align=right>569,46000000</td>
+            <td class=numero align=right>575,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Feb 2020</td>
+            <td class=numero align=right>568,77000000</td>
+            <td class=numero align=right>575,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Feb 2020</td>
+            <td class=numero align=right>568,63000000</td>
+            <td class=numero align=right>574,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Feb 2020</td>
+            <td class=numero align=right>567,15000000</td>
+            <td class=numero align=right>572,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Feb 2020</td>
+            <td class=numero align=right>565,84000000</td>
+            <td class=numero align=right>571,54000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Feb 2020</td>
+            <td class=numero align=right>565,87000000</td>
+            <td class=numero align=right>572,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Mar 2020</td>
+            <td class=numero align=right>565,87000000</td>
+            <td class=numero align=right>572,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Mar 2020</td>
+            <td class=numero align=right>565,87000000</td>
+            <td class=numero align=right>572,33000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Mar 2020</td>
+            <td class=numero align=right>566,37000000</td>
+            <td class=numero align=right>574,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Mar 2020</td>
+            <td class=numero align=right>569,08000000</td>
+            <td class=numero align=right>576,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Mar 2020</td>
+            <td class=numero align=right>569,61000000</td>
+            <td class=numero align=right>578,08000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Mar 2020</td>
+            <td class=numero align=right>569,70000000</td>
+            <td class=numero align=right>576,57000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Mar 2020</td>
+            <td class=numero align=right>566,21000000</td>
+            <td class=numero align=right>573,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Mar 2020</td>
+            <td class=numero align=right>566,21000000</td>
+            <td class=numero align=right>573,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Mar 2020</td>
+            <td class=numero align=right>566,21000000</td>
+            <td class=numero align=right>573,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Mar 2020</td>
+            <td class=numero align=right>565,13000000</td>
+            <td class=numero align=right>572,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Mar 2020</td>
+            <td class=numero align=right>564,57000000</td>
+            <td class=numero align=right>570,25000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Mar 2020</td>
+            <td class=numero align=right>561,70000000</td>
+            <td class=numero align=right>567,42000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Mar 2020</td>
+            <td class=numero align=right>562,21000000</td>
+            <td class=numero align=right>568,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Mar 2020</td>
+            <td class=numero align=right>560,66000000</td>
+            <td class=numero align=right>567,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Mar 2020</td>
+            <td class=numero align=right>560,66000000</td>
+            <td class=numero align=right>567,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Mar 2020</td>
+            <td class=numero align=right>560,66000000</td>
+            <td class=numero align=right>567,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Mar 2020</td>
+            <td class=numero align=right>560,75000000</td>
+            <td class=numero align=right>568,32000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Mar 2020</td>
+            <td class=numero align=right>563,22000000</td>
+            <td class=numero align=right>568,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Mar 2020</td>
+            <td class=numero align=right>563,38000000</td>
+            <td class=numero align=right>569,74000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Mar 2020</td>
+            <td class=numero align=right>564,80000000</td>
+            <td class=numero align=right>570,64000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Mar 2020</td>
+            <td class=numero align=right>565,64000000</td>
+            <td class=numero align=right>573,56000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Mar 2020</td>
+            <td class=numero align=right>565,64000000</td>
+            <td class=numero align=right>573,56000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Mar 2020</td>
+            <td class=numero align=right>565,64000000</td>
+            <td class=numero align=right>573,56000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Mar 2020</td>
+            <td class=numero align=right>569,54000000</td>
+            <td class=numero align=right>576,98000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Mar 2020</td>
+            <td class=numero align=right>572,33000000</td>
+            <td class=numero align=right>579,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Mar 2020</td>
+            <td class=numero align=right>575,42000000</td>
+            <td class=numero align=right>582,05000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Mar 2020</td>
+            <td class=numero align=right>577,33000000</td>
+            <td class=numero align=right>583,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Mar 2020</td>
+            <td class=numero align=right>577,90000000</td>
+            <td class=numero align=right>585,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Mar 2020</td>
+            <td class=numero align=right>577,90000000</td>
+            <td class=numero align=right>585,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Mar 2020</td>
+            <td class=numero align=right>577,90000000</td>
+            <td class=numero align=right>585,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 Mar 2020</td>
+            <td class=numero align=right>579,50000000</td>
+            <td class=numero align=right>587,37000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Abr 2020</td>
+            <td class=numero align=right>577,10000000</td>
+            <td class=numero align=right>583,71000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Abr 2020</td>
+            <td class=numero align=right>573,19000000</td>
+            <td class=numero align=right>580,08000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Abr 2020</td>
+            <td class=numero align=right>570,94000000</td>
+            <td class=numero align=right>577,96000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Abr 2020</td>
+            <td class=numero align=right>567,30000000</td>
+            <td class=numero align=right>575,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Abr 2020</td>
+            <td class=numero align=right>567,30000000</td>
+            <td class=numero align=right>575,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Abr 2020</td>
+            <td class=numero align=right>567,30000000</td>
+            <td class=numero align=right>575,49000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Abr 2020</td>
+            <td class=numero align=right>568,25000000</td>
+            <td class=numero align=right>574,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Abr 2020</td>
+            <td class=numero align=right>568,55000000</td>
+            <td class=numero align=right>575,12000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Abr 2020</td>
+            <td class=numero align=right>566,35000000</td>
+            <td class=numero align=right>573,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Abr 2020</td>
+            <td class=numero align=right>564,13000000</td>
+            <td class=numero align=right>569,29000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Abr 2020</td>
+            <td class=numero align=right>561,28000000</td>
+            <td class=numero align=right>567,52000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 Abr 2020</td>
+            <td class=numero align=right>559,65000000</td>
+            <td class=numero align=right>565,54000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 Abr 2020</td>
+            <td class=numero align=right>558,99000000</td>
+            <td class=numero align=right>565,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 Abr 2020</td>
+            <td class=numero align=right>558,99000000</td>
+            <td class=numero align=right>565,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 Abr 2020</td>
+            <td class=numero align=right>558,99000000</td>
+            <td class=numero align=right>565,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 Abr 2020</td>
+            <td class=numero align=right>562,97000000</td>
+            <td class=numero align=right>569,18000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 Abr 2020</td>
+            <td class=numero align=right>564,29000000</td>
+            <td class=numero align=right>571,90000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 Abr 2020</td>
+            <td class=numero align=right>564,68000000</td>
+            <td class=numero align=right>571,09000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 Abr 2020</td>
+            <td class=numero align=right>564,38000000</td>
+            <td class=numero align=right>569,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 Abr 2020</td>
+            <td class=numero align=right>562,93000000</td>
+            <td class=numero align=right>570,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 Abr 2020</td>
+            <td class=numero align=right>562,93000000</td>
+            <td class=numero align=right>570,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 Abr 2020</td>
+            <td class=numero align=right>562,93000000</td>
+            <td class=numero align=right>570,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 Abr 2020</td>
+            <td class=numero align=right>563,35000000</td>
+            <td class=numero align=right>569,75000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 Abr 2020</td>
+            <td class=numero align=right>564,88000000</td>
+            <td class=numero align=right>571,09000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 Abr 2020</td>
+            <td class=numero align=right>564,42000000</td>
+            <td class=numero align=right>571,46000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 May 2020</td>
+            <td class=numero align=right>565,24000000</td>
+            <td class=numero align=right>571,92000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 May 2020</td>
+            <td class=numero align=right>565,24000000</td>
+            <td class=numero align=right>571,92000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 May 2020</td>
+            <td class=numero align=right>565,24000000</td>
+            <td class=numero align=right>571,92000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 May 2020</td>
+            <td class=numero align=right>565,24000000</td>
+            <td class=numero align=right>571,92000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 May 2020</td>
+            <td class=numero align=right>564,81000000</td>
+            <td class=numero align=right>572,42000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 May 2020</td>
+            <td class=numero align=right>565,57000000</td>
+            <td class=numero align=right>572,70000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 May 2020</td>
+            <td class=numero align=right>565,04000000</td>
+            <td class=numero align=right>571,91000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 May 2020</td>
+            <td class=numero align=right>565,82000000</td>
+            <td class=numero align=right>571,97000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 May 2020</td>
+            <td class=numero align=right>565,30000000</td>
+            <td class=numero align=right>572,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 May 2020</td>
+            <td class=numero align=right>565,30000000</td>
+            <td class=numero align=right>572,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 May 2020</td>
+            <td class=numero align=right>565,30000000</td>
+            <td class=numero align=right>572,03000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 May 2020</td>
+            <td class=numero align=right>565,48000000</td>
+            <td class=numero align=right>572,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 May 2020</td>
+            <td class=numero align=right>566,32000000</td>
+            <td class=numero align=right>571,60000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 May 2020</td>
+            <td class=numero align=right>566,43000000</td>
+            <td class=numero align=right>571,82000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 May 2020</td>
+            <td class=numero align=right>566,13000000</td>
+            <td class=numero align=right>571,76000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 May 2020</td>
+            <td class=numero align=right>565,48000000</td>
+            <td class=numero align=right>572,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>17 May 2020</td>
+            <td class=numero align=right>565,48000000</td>
+            <td class=numero align=right>572,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>18 May 2020</td>
+            <td class=numero align=right>565,48000000</td>
+            <td class=numero align=right>572,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>19 May 2020</td>
+            <td class=numero align=right>566,57000000</td>
+            <td class=numero align=right>573,39000000</td>
+        </tr>
+        <tr>
+            <td class=texto>20 May 2020</td>
+            <td class=numero align=right>567,07000000</td>
+            <td class=numero align=right>574,50000000</td>
+        </tr>
+        <tr>
+            <td class=texto>21 May 2020</td>
+            <td class=numero align=right>567,67000000</td>
+            <td class=numero align=right>574,72000000</td>
+        </tr>
+        <tr>
+            <td class=texto>22 May 2020</td>
+            <td class=numero align=right>566,87000000</td>
+            <td class=numero align=right>574,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>23 May 2020</td>
+            <td class=numero align=right>566,57000000</td>
+            <td class=numero align=right>573,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>24 May 2020</td>
+            <td class=numero align=right>566,57000000</td>
+            <td class=numero align=right>573,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>25 May 2020</td>
+            <td class=numero align=right>566,57000000</td>
+            <td class=numero align=right>573,68000000</td>
+        </tr>
+        <tr>
+            <td class=texto>26 May 2020</td>
+            <td class=numero align=right>568,19000000</td>
+            <td class=numero align=right>574,07000000</td>
+        </tr>
+        <tr>
+            <td class=texto>27 May 2020</td>
+            <td class=numero align=right>567,62000000</td>
+            <td class=numero align=right>575,00000000</td>
+        </tr>
+        <tr>
+            <td class=texto>28 May 2020</td>
+            <td class=numero align=right>570,64000000</td>
+            <td class=numero align=right>575,20000000</td>
+        </tr>
+        <tr>
+            <td class=texto>29 May 2020</td>
+            <td class=numero align=right>569,46000000</td>
+            <td class=numero align=right>576,11000000</td>
+        </tr>
+        <tr>
+            <td class=texto>30 May 2020</td>
+            <td class=numero align=right>570,22000000</td>
+            <td class=numero align=right>576,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>31 May 2020</td>
+            <td class=numero align=right>570,22000000</td>
+            <td class=numero align=right>576,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>1 Jun 2020</td>
+            <td class=numero align=right>570,22000000</td>
+            <td class=numero align=right>576,93000000</td>
+        </tr>
+        <tr>
+            <td class=texto>2 Jun 2020</td>
+            <td class=numero align=right>571,29000000</td>
+            <td class=numero align=right>579,35000000</td>
+        </tr>
+        <tr>
+            <td class=texto>3 Jun 2020</td>
+            <td class=numero align=right>573,19000000</td>
+            <td class=numero align=right>581,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>4 Jun 2020</td>
+            <td class=numero align=right>574,66000000</td>
+            <td class=numero align=right>582,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>5 Jun 2020</td>
+            <td class=numero align=right>573,68000000</td>
+            <td class=numero align=right>582,45000000</td>
+        </tr>
+        <tr>
+            <td class=texto>6 Jun 2020</td>
+            <td class=numero align=right>574,99000000</td>
+            <td class=numero align=right>582,87000000</td>
+        </tr>
+        <tr>
+            <td class=texto>7 Jun 2020</td>
+            <td class=numero align=right>574,99000000</td>
+            <td class=numero align=right>582,87000000</td>
+        </tr>
+        <tr>
+            <td class=texto>8 Jun 2020</td>
+            <td class=numero align=right>574,99000000</td>
+            <td class=numero align=right>582,87000000</td>
+        </tr>
+        <tr>
+            <td class=texto>9 Jun 2020</td>
+            <td class=numero align=right>575,70000000</td>
+            <td class=numero align=right>583,72000000</td>
+        </tr>
+        <tr>
+            <td class=texto>10 Jun 2020</td>
+            <td class=numero align=right>577,25000000</td>
+            <td class=numero align=right>584,02000000</td>
+        </tr>
+        <tr>
+            <td class=texto>11 Jun 2020</td>
+            <td class=numero align=right>576,90000000</td>
+            <td class=numero align=right>583,14000000</td>
+        </tr>
+        <tr>
+            <td class=texto>12 Jun 2020</td>
+            <td class=numero align=right>574,50000000</td>
+            <td class=numero align=right>580,61000000</td>
+        </tr>
+        <tr>
+            <td class=texto>13 Jun 2020</td>
+            <td class=numero align=right>571,42000000</td>
+            <td class=numero align=right>578,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>14 Jun 2020</td>
+            <td class=numero align=right>571,42000000</td>
+            <td class=numero align=right>578,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>15 Jun 2020</td>
+            <td class=numero align=right>571,42000000</td>
+            <td class=numero align=right>578,83000000</td>
+        </tr>
+        <tr>
+            <td class=texto>16 Jun 2020</td>
+            <td class=numero align=right>571,04000000</td>
+            <td class=numero align=right>577,88000000</td>
+        </tr>
+    </table>
+</HTML>
